@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeManager.Main", "HomeManager.Main\HomeManager.Main.csproj", "{11C15EBD-874C-4642-8A7D-D07BE148E06D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeManager.Ui", "HomeManager.Ui\HomeManager.Ui.csproj", "{9D97A11A-BA3B-4A9C-BF31-BF5C46F4C5EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeManager.Data", "HomeManager.Data\HomeManager.Data.csproj", "{CC1FE22F-A331-498C-AE34-9487DAAECA2B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11C15EBD-874C-4642-8A7D-D07BE148E06D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11C15EBD-874C-4642-8A7D-D07BE148E06D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11C15EBD-874C-4642-8A7D-D07BE148E06D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11C15EBD-874C-4642-8A7D-D07BE148E06D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D97A11A-BA3B-4A9C-BF31-BF5C46F4C5EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D97A11A-BA3B-4A9C-BF31-BF5C46F4C5EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D97A11A-BA3B-4A9C-BF31-BF5C46F4C5EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D97A11A-BA3B-4A9C-BF31-BF5C46F4C5EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC1FE22F-A331-498C-AE34-9487DAAECA2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC1FE22F-A331-498C-AE34-9487DAAECA2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC1FE22F-A331-498C-AE34-9487DAAECA2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC1FE22F-A331-498C-AE34-9487DAAECA2B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,20 @@
+﻿@using System.Reflection
+@using HomeManager.Ui.Sections.Finance.Pages
+
+@rendermode InteractiveServer
+
+<Router AppAssembly="@typeof(Program).Assembly" AdditionalAssemblies="@_extraAssemblies">
+    <Found Context="routeData">
+        <RouteView RouteData="@routeData" DefaultLayout="@typeof(Layout.MainLayout)"/>
+        <FocusOnNavigate RouteData="@routeData" Selector="h1"/>
+    </Found>
+</Router>
+
+@code{
+
+    private List<Assembly> _extraAssemblies = new()
+    {
+        typeof(Dashboard).Assembly,
+    };
+
+}
